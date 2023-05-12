@@ -1,0 +1,75 @@
+#current{
+
+  font-size: 3.2em;
+  margin-top: 37vh;
+  align-items: center;
+  margin-left: 41vw;
+  padding: 0%;
+  transition: 1s;
+  width: 400px;
+  white-space: nowrap;
+}
+
+#current:hover{
+
+  filter: drop-shadow(0px 0px 30px #ffffff);
+
+}
+
+input{
+  width: 200px;
+  border-radius: 50px;
+  height: 50px;
+  box-shadow : inset 2px 3px 55px #000000, 0px 1px 50px #333;
+  color : white;
+  margin-left: 41vw;
+  transition: 1s;
+  padding-left: 10px;
+  
+}
+
+input:hover{
+
+  width: 250px;
+  height: 75px;
+  font-size: large;
+  padding-left: 8px;
+
+}
+
+input::placeholder{
+  color: white;
+  font-size: small;
+  transition: 1s;
+  padding-left: 2px;
+}
+
+input:hover::placeholder{
+  color: white;
+  font-size: medium;
+  padding-left: 10px;
+}
+
+#op {
+
+  animation : entry 3s infinite ease-in;
+  display: inline;
+  padding-left: 12px;
+}
+
+@keyframes entry {
+
+  0%,100%{
+
+    color: red;
+  }
+
+  25%, 75% {
+    color: rgb(0, 255, 0);
+  }
+
+  50%{
+    color: blue;
+  }
+
+}
