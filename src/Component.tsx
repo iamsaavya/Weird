@@ -1,9 +1,6 @@
 import "./App.css"
 import {useState} from 'react';
 
-
-
-
 function Message(){
 
     const [name, getname] = useState('');
@@ -22,7 +19,8 @@ function Message(){
     <>
     <div id="lol">
 
-    <h1 id="current"> Hello 
+    <h1 id="current">
+    <span className="material-icons" id="hand"> back_hand </span>  Hello 
      
     <div id="op">{name}</div>
      
